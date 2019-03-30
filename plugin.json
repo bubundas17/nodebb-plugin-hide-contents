@@ -2,7 +2,7 @@
 	"id": "nodebb-plugin-hide-contents",
 	"name": "This Plugin Enables Hide Tag",
 	"description": "This Plugin Enables Hide Tag",
-	"url": "https://github.com/psychobunny/nodebb-plugin-spoilers",
+	"url": "https://github.com/bubundas17/nodebb-plugin-hide-contents",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "filter:parse.post", "method": "parse", "priority": 6 },
