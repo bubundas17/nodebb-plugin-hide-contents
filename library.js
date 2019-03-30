@@ -3,12 +3,12 @@
 var plugin = {};
 
 plugin.parse = function(data, callback) {
-	if (!data || !data.postData || !data.postData.content) {
+    console.log(data)
+    if (!data || !data.postData || !data.postData.content) {
 	    return callback(null, data);
 	}
 
 	plugin.parseRaw(data.postData.content, function (err, content) {
-        console.log(data)
 		data.postData.content = content;
 		callback(err, data);
 	});
