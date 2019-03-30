@@ -8,6 +8,7 @@ plugin.parse = function(data, callback) {
 	}
 
 	plugin.parseRaw(data.postData.content, function (err, content) {
+        console.log(data)
 		data.postData.content = content;
 		callback(err, data);
 	});
