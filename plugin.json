@@ -2,10 +2,10 @@
 	"id": "nodebb-plugin-hide-contents",
 	"name": "This Plugin Enables Hide Tag",
 	"description": "This Plugin Enables Hide Tag",
-	"url": "https://github.com/bubundas17/nodebb-plugin-hide-contents",
+	"url": "https://github.com/bubundas17/nodebb-plugin-hide-contents.git",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:topic.post", "method": "parse", "priority": 6 },
+		{ "hook": "filter:parse.post", "method": "parse", "priority": 6 },
 		{ "hook": "filter:parse.raw", "method": "parseRaw", "priority": 6 }
 	],
 	"staticDirs": {
