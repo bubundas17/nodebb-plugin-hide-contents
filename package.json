@@ -1,0 +1,8 @@
+{
+  "name": "nodebb-plugin-hide-contents",
+  "version": "1.0.0",
+  "description": "This Plugin Enables Hide Tag",
+  "main": "index.js",
+  "author": "Bubun Das",
+  "license": "MIT"
+}
